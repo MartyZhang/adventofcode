@@ -60,7 +60,7 @@ void Day3::RemoveAllNonMatchingItems(std::set<std::string> &items,
   char matching_char = '0' + matching_bit;
   for (auto it = items.begin(); it != items.end();) {
     if (it->length() > position && it->at(position) != matching_char) {
-      items.erase(it++);
+      it = items.erase(it);
     } else {
       ++it;
     }
