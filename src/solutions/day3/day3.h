@@ -20,7 +20,7 @@ protected:
   std::string GetElementForBitCriteria(Criteria criteria,
                                        std::set<std::string> elements);
   void ReadLineFromReport(std::string line);
-  int CalculateMajorityBit(const std::set<std::string>& inputs, int position, Criteria criteria);
+  int CalculateMajorityBit(const std::set<std::string>& inputs, int position);
   void RemoveAllNonMatchingItems(std::set<std::string> &items, int matching_bit,
                                  int position);
   std::set<std::string> lines_;

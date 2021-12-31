@@ -17,7 +17,7 @@ void Day3::Part1() {
   // Start at LSB
   int base = 0;
   for (int i = max_string_length_ - 1; i >= 0; i--) {
-    int majority_bit = CalculateMajorityBit(lines_, i, MAJORITY);
+    int majority_bit = CalculateMajorityBit(lines_, i);
     if (majority_bit) {
       gamma += std::pow(2, base);
     } else {
@@ -48,7 +48,7 @@ std::string Day3::GetElementForBitCriteria(Criteria criteria,
                                            std::set<std::string> elements) {
   int i = 0;
   while (elements.size() > 1 && i < max_string_length_) {
-    int mb = CalculateMajorityBit(elements, i, criteria);
+    int mb = CalculateMajorityBit(elements, i);
     RemoveAllNonMatchingItems(elements, criteria == MAJORITY ? mb : !mb, i);
     i++;
   }
@@ -68,7 +68,7 @@ void Day3::RemoveAllNonMatchingItems(std::set<std::string> &items,
 }
 
 int Day3::CalculateMajorityBit(const std::set<std::string> &inputs,
-                               int position, Criteria criteria) {
+                               int position) {
   int ones_count = 0;
   for (std::string input : inputs) {
     if (position < input.length() && input.at(position) == '1') {
