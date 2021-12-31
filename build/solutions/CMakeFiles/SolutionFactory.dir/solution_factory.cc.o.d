@@ -229,4 +229,8 @@ solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day1/day1.h \
   /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day2/day2.h \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day3/day3.h
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day3/day3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional
