@@ -1,4 +1,4 @@
-# Install script for directory: /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions
+# Install script for directory: /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,15 +35,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day1/cmake_install.cmake")
-  include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day2/cmake_install.cmake")
-  include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day3/cmake_install.cmake")
-  include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day4/cmake_install.cmake")
-  include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/solution/cmake_install.cmake")
-
 endif()
 

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libDay4.a CMakeFiles/Day4.dir/day4.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libDay4.a

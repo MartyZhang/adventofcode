@@ -182,6 +182,19 @@ Day3/fast:
 .PHONY : Day3/fast
 
 #=============================================================================
+# Target rules for targets named Day4
+
+# Build rule for target.
+Day4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day4
+.PHONY : Day4
+
+# fast build rule for target.
+Day4/fast:
+	$(MAKE) $(MAKESILENT) -f solutions/day4/CMakeFiles/Day4.dir/build.make solutions/day4/CMakeFiles/Day4.dir/build
+.PHONY : Day4/fast
+
+#=============================================================================
 # Target rules for targets named Solution
 
 # Build rule for target.
@@ -230,6 +243,7 @@ help:
 	@echo "... Day1"
 	@echo "... Day2"
 	@echo "... Day3"
+	@echo "... Day4"
 	@echo "... Solution"
 	@echo "... SolutionFactory"
 	@echo "... main.o"

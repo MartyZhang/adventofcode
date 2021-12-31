@@ -18,6 +18,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day1/CMakeFiles/Day1.dir/DependInfo.cmake"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day2/CMakeFiles/Day2.dir/DependInfo.cmake"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day3/CMakeFiles/Day3.dir/DependInfo.cmake"
+  "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day4/CMakeFiles/Day4.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
