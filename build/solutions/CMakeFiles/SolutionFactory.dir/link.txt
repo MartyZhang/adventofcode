@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libSolutionFactory.a CMakeFiles/SolutionFactory.dir/solution_factory.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libSolutionFactory.a
