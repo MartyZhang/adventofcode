@@ -195,6 +195,19 @@ Day4/fast:
 .PHONY : Day4/fast
 
 #=============================================================================
+# Target rules for targets named Day5
+
+# Build rule for target.
+Day5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day5
+.PHONY : Day5
+
+# fast build rule for target.
+Day5/fast:
+	$(MAKE) $(MAKESILENT) -f solutions/day5/CMakeFiles/Day5.dir/build.make solutions/day5/CMakeFiles/Day5.dir/build
+.PHONY : Day5/fast
+
+#=============================================================================
 # Target rules for targets named Solution
 
 # Build rule for target.
@@ -206,6 +219,19 @@ Solution: cmake_check_build_system
 Solution/fast:
 	$(MAKE) $(MAKESILENT) -f solutions/solution/CMakeFiles/Solution.dir/build.make solutions/solution/CMakeFiles/Solution.dir/build
 .PHONY : Solution/fast
+
+#=============================================================================
+# Target rules for targets named Utils
+
+# Build rule for target.
+Utils: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Utils
+.PHONY : Utils
+
+# fast build rule for target.
+Utils/fast:
+	$(MAKE) $(MAKESILENT) -f solutions/utils/CMakeFiles/Utils.dir/build.make solutions/utils/CMakeFiles/Utils.dir/build
+.PHONY : Utils/fast
 
 main.o: main.cc.o
 .PHONY : main.o
@@ -244,8 +270,10 @@ help:
 	@echo "... Day2"
 	@echo "... Day3"
 	@echo "... Day4"
+	@echo "... Day5"
 	@echo "... Solution"
 	@echo "... SolutionFactory"
+	@echo "... Utils"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

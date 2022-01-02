@@ -236,8 +236,15 @@ solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: /Users/martinzha
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day4/day4.h
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day4/day4.h \
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day5/day5.h \
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/utils/utils.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map
 
+
+/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/utils/utils.h:
+
+/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day5/day5.h:
 
 /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day4/day4.h:
 
@@ -482,6 +489,8 @@ solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: /Users/martinzha
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h:
 
