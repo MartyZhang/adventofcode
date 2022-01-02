@@ -4,8 +4,8 @@
  */
 #ifndef UTILS_H
 #define UTILS_H
-#include <vector>
 #include <string>
+#include <vector>
 
 // StrSplit takes in an input string and a delimiter.
 // It splits the input string by the delimiter and returns a vector which

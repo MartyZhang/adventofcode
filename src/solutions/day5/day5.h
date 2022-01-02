@@ -21,8 +21,8 @@ struct Coordinate {
   };
   bool operator<(const Coordinate &other) const {
     if (this->x == other.x) {
-		return this->y < other.y;
-	}
+      return this->y < other.y;
+    }
     return this->x < other.x;
   }
 };
@@ -40,18 +40,19 @@ public:
 
 class Field {
 public:
-	void AddLine(Line line);
-	std::map<Coordinate, int> field_;
-	int overlaps_;
+  void AddLine(Line line);
+  std::map<Coordinate, int> field_;
+  int overlaps_;
 };
 
-class Day5: public Solution {
-	public:
-		Day5();
-		void Solve() override;
-	protected:
-		void ParseFile() override;
-		Field field_;
+class Day5 : public Solution {
+public:
+  Day5();
+  void Solve() override;
+
+protected:
+  void ParseFile() override;
+  Field field_;
 };
 } // namespace aoc
 #endif /* DAY5_H */

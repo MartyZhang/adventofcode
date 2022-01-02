@@ -5,7 +5,7 @@
 
 namespace aoc {
 
-Line::Line(Coordinate start, Coordinate end): start_(start), end_(end){};
+Line::Line(Coordinate start, Coordinate end) : start_(start), end_(end){};
 
 bool Line::IsDiagonal() { return start_.x != end_.x && start_.y != end_.y; }
 bool Line::IsHorizontal() { return start_.y == end_.y; }
@@ -52,19 +52,17 @@ std::vector<Coordinate> Line::GetAllPoints() {
 void Field::AddLine(Line line) {
   for (Coordinate p : line.GetAllPoints()) {
     if (field_.count(p)) {
-	  int count = field_.find(p)->second++;
-	  if (count == 1) {
-		overlaps_++;
-	  }
+      int count = field_.find(p)->second++;
+      if (count == 1) {
+        overlaps_++;
+      }
     } else {
       field_.insert(std::make_pair(p, 1));
     }
   }
 }
 
-Day5::Day5() {
-	field_ = Field();
-}
+Day5::Day5() { field_ = Field(); }
 
 void Day5::Solve() {
   ParseFile();
