@@ -5,6 +5,23 @@
 
 namespace aoc {
 
+Day5::Day5() { field_ = Field(); }
+
+void Day5::Solve() {
+  ParseFile();
+  std::cout << "Number of overlaps " << field_.overlaps_ << std::endl;
+}
+
+void Day5::ParseFile() {
+  std::fstream file;
+  file.open(input_filepath_);
+  for (std::string line; getline(file, line);) {
+    std::vector<std::string> coordinates = StrSplit(line, " -> ");
+    field_.AddLine(Line(coordinates[0], coordinates[1]));
+  }
+  file.close();
+}
+
 Line::Line(Coordinate start, Coordinate end) : start_(start), end_(end){};
 
 bool Line::IsDiagonal() { return start_.x != end_.x && start_.y != end_.y; }
@@ -62,20 +79,4 @@ void Field::AddLine(Line line) {
   }
 }
 
-Day5::Day5() { field_ = Field(); }
-
-void Day5::Solve() {
-  ParseFile();
-  std::cout << "Number of overlaps " << field_.overlaps_ << std::endl;
-}
-
-void Day5::ParseFile() {
-  std::fstream file;
-  file.open(input_filepath_);
-  for (std::string line; getline(file, line);) {
-    std::vector<std::string> coordinates = StrSplit(line, " -> ");
-    field_.AddLine(Line(coordinates[0], coordinates[1]));
-  }
-  file.close();
-}
 } // namespace aoc

@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day3/CMakeLists.txt"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day4/CMakeLists.txt"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day5/CMakeLists.txt"
+  "/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day6/CMakeLists.txt"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/solution/CMakeLists.txt"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/utils/CMakeLists.txt"
   "/usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCInformation.cmake"
@@ -57,6 +58,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "solutions/day3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "solutions/day4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "solutions/day5/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "solutions/day6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "solutions/solution/CMakeFiles/CMakeDirectoryInformation.cmake"
   "solutions/utils/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -70,6 +72,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "solutions/day3/CMakeFiles/Day3.dir/DependInfo.cmake"
   "solutions/day4/CMakeFiles/Day4.dir/DependInfo.cmake"
   "solutions/day5/CMakeFiles/Day5.dir/DependInfo.cmake"
+  "solutions/day6/CMakeFiles/Day6.dir/DependInfo.cmake"
   "solutions/solution/CMakeFiles/Solution.dir/DependInfo.cmake"
   "solutions/utils/CMakeFiles/Utils.dir/DependInfo.cmake"
   )

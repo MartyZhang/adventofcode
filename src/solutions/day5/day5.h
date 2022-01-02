@@ -13,7 +13,8 @@ namespace aoc {
 struct Coordinate {
   int x;
   int y;
-  Coordinate(int x, int y) : x(x), y(y){};
+  Coordinate(int x, int y) : x(x), y(y) {}
+  // coordinate string must be of form "x,y"
   Coordinate(std::string coordinate_string) {
     std::vector<std::string> x_and_y = StrSplit(coordinate_string, ",");
     x = std::stoi(x_and_y[0]);

@@ -100,6 +100,7 @@ Advent: solutions/day2/libDay2.a
 Advent: solutions/day3/libDay3.a
 Advent: solutions/day4/libDay4.a
 Advent: solutions/day5/libDay5.a
+Advent: solutions/day6/libDay6.a
 Advent: solutions/utils/libUtils.a
 Advent: CMakeFiles/Advent.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Advent"

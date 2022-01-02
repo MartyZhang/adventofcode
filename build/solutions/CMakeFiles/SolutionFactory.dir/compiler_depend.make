@@ -239,7 +239,8 @@ solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: /Users/martinzha
   /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day4/day4.h \
   /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day5/day5.h \
   /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/utils/utils.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day6/day6.h
 
 
 /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/utils/utils.h:
@@ -485,6 +486,8 @@ solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: /Users/martinzha
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h:
+
+/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day6/day6.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdlib.h:
 
