@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libDay7.a CMakeFiles/Day7.dir/day7.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libDay7.a

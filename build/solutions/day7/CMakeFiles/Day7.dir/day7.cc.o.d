@@ -1,7 +1,7 @@
-solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/solution_factory.cc \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/solution_factory.h \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/solution/solution.h \
+solutions/day7/CMakeFiles/Day7.dir/day7.cc.o: \
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day7/day7.cc \
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day7/day7.h \
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day7/../solution/solution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -227,16 +227,16 @@ solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day1/day1.h \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day2/day2.h \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day3/day3.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/set \
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day7/../utils/utils.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day4/day4.h \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day5/day5.h \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day5/../utils/utils.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day6/day6.h \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day7/day7.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip

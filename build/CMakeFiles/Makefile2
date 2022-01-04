@@ -87,6 +87,7 @@ solutions/all: solutions/day3/all
 solutions/all: solutions/day4/all
 solutions/all: solutions/day5/all
 solutions/all: solutions/day6/all
+solutions/all: solutions/day7/all
 solutions/all: solutions/solution/all
 solutions/all: solutions/utils/all
 .PHONY : solutions/all
@@ -98,6 +99,7 @@ solutions/preinstall: solutions/day3/preinstall
 solutions/preinstall: solutions/day4/preinstall
 solutions/preinstall: solutions/day5/preinstall
 solutions/preinstall: solutions/day6/preinstall
+solutions/preinstall: solutions/day7/preinstall
 solutions/preinstall: solutions/solution/preinstall
 solutions/preinstall: solutions/utils/preinstall
 .PHONY : solutions/preinstall
@@ -110,6 +112,7 @@ solutions/clean: solutions/day3/clean
 solutions/clean: solutions/day4/clean
 solutions/clean: solutions/day5/clean
 solutions/clean: solutions/day6/clean
+solutions/clean: solutions/day7/clean
 solutions/clean: solutions/solution/clean
 solutions/clean: solutions/utils/clean
 .PHONY : solutions/clean
@@ -205,6 +208,21 @@ solutions/day6/clean: solutions/day6/CMakeFiles/Day6.dir/clean
 .PHONY : solutions/day6/clean
 
 #=============================================================================
+# Directory level rules for directory solutions/day7
+
+# Recursive "all" directory target.
+solutions/day7/all: solutions/day7/CMakeFiles/Day7.dir/all
+.PHONY : solutions/day7/all
+
+# Recursive "preinstall" directory target.
+solutions/day7/preinstall:
+.PHONY : solutions/day7/preinstall
+
+# Recursive "clean" directory target.
+solutions/day7/clean: solutions/day7/CMakeFiles/Day7.dir/clean
+.PHONY : solutions/day7/clean
+
+#=============================================================================
 # Directory level rules for directory solutions/solution
 
 # Recursive "all" directory target.
@@ -245,6 +263,7 @@ CMakeFiles/Advent.dir/all: solutions/day3/CMakeFiles/Day3.dir/all
 CMakeFiles/Advent.dir/all: solutions/day4/CMakeFiles/Day4.dir/all
 CMakeFiles/Advent.dir/all: solutions/day5/CMakeFiles/Day5.dir/all
 CMakeFiles/Advent.dir/all: solutions/day6/CMakeFiles/Day6.dir/all
+CMakeFiles/Advent.dir/all: solutions/day7/CMakeFiles/Day7.dir/all
 CMakeFiles/Advent.dir/all: solutions/solution/CMakeFiles/Solution.dir/all
 CMakeFiles/Advent.dir/all: solutions/utils/CMakeFiles/Utils.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent.dir/build.make CMakeFiles/Advent.dir/depend
@@ -254,7 +273,7 @@ CMakeFiles/Advent.dir/all: solutions/utils/CMakeFiles/Utils.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Advent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Advent.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles 0
 .PHONY : CMakeFiles/Advent.dir/rule
@@ -278,16 +297,17 @@ solutions/CMakeFiles/SolutionFactory.dir/all: solutions/day3/CMakeFiles/Day3.dir
 solutions/CMakeFiles/SolutionFactory.dir/all: solutions/day4/CMakeFiles/Day4.dir/all
 solutions/CMakeFiles/SolutionFactory.dir/all: solutions/day5/CMakeFiles/Day5.dir/all
 solutions/CMakeFiles/SolutionFactory.dir/all: solutions/day6/CMakeFiles/Day6.dir/all
+solutions/CMakeFiles/SolutionFactory.dir/all: solutions/day7/CMakeFiles/Day7.dir/all
 solutions/CMakeFiles/SolutionFactory.dir/all: solutions/solution/CMakeFiles/Solution.dir/all
 solutions/CMakeFiles/SolutionFactory.dir/all: solutions/utils/CMakeFiles/Utils.dir/all
 	$(MAKE) $(MAKESILENT) -f solutions/CMakeFiles/SolutionFactory.dir/build.make solutions/CMakeFiles/SolutionFactory.dir/depend
 	$(MAKE) $(MAKESILENT) -f solutions/CMakeFiles/SolutionFactory.dir/build.make solutions/CMakeFiles/SolutionFactory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles --progress-num=17,18 "Built target SolutionFactory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles --progress-num=19,20 "Built target SolutionFactory"
 .PHONY : solutions/CMakeFiles/SolutionFactory.dir/all
 
 # Build rule for subdir invocation for target.
 solutions/CMakeFiles/SolutionFactory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solutions/CMakeFiles/SolutionFactory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles 0
 .PHONY : solutions/CMakeFiles/SolutionFactory.dir/rule
@@ -458,13 +478,39 @@ solutions/day6/CMakeFiles/Day6.dir/clean:
 .PHONY : solutions/day6/CMakeFiles/Day6.dir/clean
 
 #=============================================================================
+# Target rules for target solutions/day7/CMakeFiles/Day7.dir
+
+# All Build rule for target.
+solutions/day7/CMakeFiles/Day7.dir/all:
+	$(MAKE) $(MAKESILENT) -f solutions/day7/CMakeFiles/Day7.dir/build.make solutions/day7/CMakeFiles/Day7.dir/depend
+	$(MAKE) $(MAKESILENT) -f solutions/day7/CMakeFiles/Day7.dir/build.make solutions/day7/CMakeFiles/Day7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles --progress-num=15,16 "Built target Day7"
+.PHONY : solutions/day7/CMakeFiles/Day7.dir/all
+
+# Build rule for subdir invocation for target.
+solutions/day7/CMakeFiles/Day7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solutions/day7/CMakeFiles/Day7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles 0
+.PHONY : solutions/day7/CMakeFiles/Day7.dir/rule
+
+# Convenience name for target.
+Day7: solutions/day7/CMakeFiles/Day7.dir/rule
+.PHONY : Day7
+
+# clean rule for target.
+solutions/day7/CMakeFiles/Day7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f solutions/day7/CMakeFiles/Day7.dir/build.make solutions/day7/CMakeFiles/Day7.dir/clean
+.PHONY : solutions/day7/CMakeFiles/Day7.dir/clean
+
+#=============================================================================
 # Target rules for target solutions/solution/CMakeFiles/Solution.dir
 
 # All Build rule for target.
 solutions/solution/CMakeFiles/Solution.dir/all:
 	$(MAKE) $(MAKESILENT) -f solutions/solution/CMakeFiles/Solution.dir/build.make solutions/solution/CMakeFiles/Solution.dir/depend
 	$(MAKE) $(MAKESILENT) -f solutions/solution/CMakeFiles/Solution.dir/build.make solutions/solution/CMakeFiles/Solution.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles --progress-num=15,16 "Built target Solution"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles --progress-num=17,18 "Built target Solution"
 .PHONY : solutions/solution/CMakeFiles/Solution.dir/all
 
 # Build rule for subdir invocation for target.
@@ -490,7 +536,7 @@ solutions/solution/CMakeFiles/Solution.dir/clean:
 solutions/utils/CMakeFiles/Utils.dir/all:
 	$(MAKE) $(MAKESILENT) -f solutions/utils/CMakeFiles/Utils.dir/build.make solutions/utils/CMakeFiles/Utils.dir/depend
 	$(MAKE) $(MAKESILENT) -f solutions/utils/CMakeFiles/Utils.dir/build.make solutions/utils/CMakeFiles/Utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles --progress-num=19,20 "Built target Utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/martinzhang/Documents/workspace/c++/adventofcode/build/CMakeFiles --progress-num=21,22 "Built target Utils"
 .PHONY : solutions/utils/CMakeFiles/Utils.dir/all
 
 # Build rule for subdir invocation for target.

@@ -22,6 +22,9 @@
 /Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day6/CMakeFiles/Day6.dir
 /Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day6/CMakeFiles/edit_cache.dir
 /Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day6/CMakeFiles/rebuild_cache.dir
+/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day7/CMakeFiles/Day7.dir
+/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day7/CMakeFiles/edit_cache.dir
+/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day7/CMakeFiles/rebuild_cache.dir
 /Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/solution/CMakeFiles/Solution.dir
 /Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/solution/CMakeFiles/edit_cache.dir
 /Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/solution/CMakeFiles/rebuild_cache.dir
