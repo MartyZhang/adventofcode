@@ -5,6 +5,7 @@ add_subdirectory(day4)
 add_subdirectory(day5)
 add_subdirectory(day6)
 add_subdirectory(day7)
+add_subdirectory(day8)
 add_subdirectory(solution)
 add_subdirectory(utils)
 add_library(SolutionFactory solution_factory.cc)
@@ -17,6 +18,7 @@ target_link_libraries(SolutionFactory PUBLIC
 	Day5
 	Day6
 	Day7
+	Day8
 	Utils
 )
 target_include_directories(SolutionFactory PUBLIC 
@@ -29,4 +31,5 @@ target_include_directories(SolutionFactory PUBLIC
 	"${CMAKE_CURRENT_SOURCE_DIR}/day5"
 	"${CMAKE_CURRENT_SOURCE_DIR}/day6"
 	"${CMAKE_CURRENT_SOURCE_DIR}/day7"
+	"${CMAKE_CURRENT_SOURCE_DIR}/day8"
 )

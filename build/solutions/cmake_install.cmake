@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day5/cmake_install.cmake")
   include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day6/cmake_install.cmake")
   include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day7/cmake_install.cmake")
+  include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day8/cmake_install.cmake")
   include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/solution/cmake_install.cmake")
   include("/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/utils/cmake_install.cmake")
 
