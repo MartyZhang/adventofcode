@@ -247,6 +247,19 @@ Day8/fast:
 .PHONY : Day8/fast
 
 #=============================================================================
+# Target rules for targets named Day9
+
+# Build rule for target.
+Day9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day9
+.PHONY : Day9
+
+# fast build rule for target.
+Day9/fast:
+	$(MAKE) $(MAKESILENT) -f solutions/day9/CMakeFiles/Day9.dir/build.make solutions/day9/CMakeFiles/Day9.dir/build
+.PHONY : Day9/fast
+
+#=============================================================================
 # Target rules for targets named Solution
 
 # Build rule for target.
@@ -313,6 +326,7 @@ help:
 	@echo "... Day6"
 	@echo "... Day7"
 	@echo "... Day8"
+	@echo "... Day9"
 	@echo "... Solution"
 	@echo "... SolutionFactory"
 	@echo "... Utils"
