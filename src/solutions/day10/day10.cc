@@ -23,8 +23,8 @@ void Day10::Part1() {
     int score = CalculateScore(*it);
     if (score > 0) {
       running_score += score;
-	  it = lines_.erase(it);
-	  continue;
+      it = lines_.erase(it);
+      continue;
     }
     ++it;
   }
