@@ -24,8 +24,8 @@ protected:
   // IsLowPoint checks if location i,j in the height map is a low point.
   bool IsLowPoint(int i, int j);
   // Represents a topographical map.
-  Matrix height_map;
-  std::vector<int> basins;
+  Matrix height_map_;
+  std::vector<int> basins_;
 };
 
 } // namespace aoc

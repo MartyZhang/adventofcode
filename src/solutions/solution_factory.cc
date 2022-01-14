@@ -8,6 +8,7 @@
 #include "day7.h"
 #include "day8.h"
 #include "day9.h"
+#include "day10.h"
 
 namespace aoc {
 Solution *SolutionFactory::CreateSolutionFor(int problem_day,
@@ -40,6 +41,9 @@ Solution *SolutionFactory::CreateSolutionFor(int problem_day,
     break;
   case 9:
     solution = new Day9();
+    break;
+  case 10:
+    solution = new Day10();
     break;
   default:
     solution = new UnimplementedSolution();

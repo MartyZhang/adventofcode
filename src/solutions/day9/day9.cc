@@ -12,10 +12,10 @@ void Day9::Solve() {
 
 void Day9::Part1() {
   int risk_level = 0;
-  for (int i = 0; i < height_map.size(); i++) {
-    for (int j = 0; j < height_map[i].size(); j++) {
+  for (int i = 0; i < height_map_.size(); i++) {
+    for (int j = 0; j < height_map_[i].size(); j++) {
       if (IsLowPoint(i, j)) {
-        risk_level += height_map[i][j] + 1;
+        risk_level += height_map_[i][j] + 1;
       }
     }
   }
@@ -23,17 +23,16 @@ void Day9::Part1() {
 }
 
 void Day9::Part2() {
-  int risk_level = 0;
-  for (int i = 0; i < height_map.size(); i++) {
-    for (int j = 0; j < height_map[i].size(); j++) {
+  for (int i = 0; i < height_map_.size(); i++) {
+    for (int j = 0; j < height_map_[i].size(); j++) {
       if (IsLowPoint(i, j)) {
-        basins.push_back(GetBasin(i, j));
+        basins_.push_back(GetBasin(i, j));
       }
     }
   }
-  std::sort(basins.begin(), basins.end(), std::greater<int>());
+  std::sort(basins_.begin(), basins_.end(), std::greater<int>());
   std::cout << "Largest basins multiplied is "
-            << basins[0] * basins[1] * basins[2] << std::endl;
+            << basins_[0] * basins_[1] * basins_[2] << std::endl;
 }
 
 void Day9::ParseFile() {
@@ -44,7 +43,7 @@ void Day9::ParseFile() {
     for (const char &c : line) {
       row.push_back(c - '0');
     }
-    height_map.push_back(row);
+    height_map_.push_back(row);
   }
   file.close();
 }
@@ -56,45 +55,45 @@ int Day9::GetBasin(int i, int j) {
   // Otherwise, we set size to 1, which counts the current location, and attempt
   // to add adjacent locations. We set our current location
   // to -1 to mark it as explored in order to prevent double counting.
-  int current = height_map[i][j];
+  int current = height_map_[i][j];
   if (current == 9) {
     return 0;
   }
   // mark current as explored;
-  height_map[i][j] = -1;
+  height_map_[i][j] = -1;
   // Add current and all adjacents if applicable
   int size = 1;
-  if (i != 0 && current < height_map[i - 1][j]) {
+  if (i != 0 && current < height_map_[i - 1][j]) {
     size += GetBasin(i - 1, j);
   }
-  if (i != height_map.size() - 1 && current < height_map[i + 1][j]) {
+  if (i != height_map_.size() - 1 && current < height_map_[i + 1][j]) {
     size += GetBasin(i + 1, j);
   }
 
-  if (j != 0 && current < height_map[i][j - 1]) {
+  if (j != 0 && current < height_map_[i][j - 1]) {
     size += GetBasin(i, j - 1);
   }
 
-  if (j != height_map[i].size() - 1 && current < height_map[i][j + 1]) {
+  if (j != height_map_[i].size() - 1 && current < height_map_[i][j + 1]) {
     size += GetBasin(i, j + 1);
   }
   return size;
 }
 
 bool Day9::IsLowPoint(int i, int j) {
-  int current = height_map[i][j];
-  if (i != 0 && current >= height_map[i - 1][j]) {
+  int current = height_map_[i][j];
+  if (i != 0 && current >= height_map_[i - 1][j]) {
     return false;
   }
-  if (i != height_map.size() - 1 && current >= height_map[i + 1][j]) {
-    return false;
-  }
-
-  if (j != 0 && current >= height_map[i][j - 1]) {
+  if (i != height_map_.size() - 1 && current >= height_map_[i + 1][j]) {
     return false;
   }
 
-  if (j != height_map[i].size() - 1 && current >= height_map[i][j + 1]) {
+  if (j != 0 && current >= height_map_[i][j - 1]) {
+    return false;
+  }
+
+  if (j != height_map_[i].size() - 1 && current >= height_map_[i][j + 1]) {
     return false;
   }
 

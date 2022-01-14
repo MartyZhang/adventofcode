@@ -24,6 +24,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day7/CMakeFiles/Day7.dir/DependInfo.cmake"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day8/CMakeFiles/Day8.dir/DependInfo.cmake"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day9/CMakeFiles/Day9.dir/DependInfo.cmake"
+  "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/day10/CMakeFiles/Day10.dir/DependInfo.cmake"
   "/Users/martinzhang/Documents/workspace/c++/adventofcode/build/solutions/utils/CMakeFiles/Utils.dir/DependInfo.cmake"
   )
 

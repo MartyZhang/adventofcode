@@ -260,6 +260,19 @@ Day9/fast:
 .PHONY : Day9/fast
 
 #=============================================================================
+# Target rules for targets named Day10
+
+# Build rule for target.
+Day10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day10
+.PHONY : Day10
+
+# fast build rule for target.
+Day10/fast:
+	$(MAKE) $(MAKESILENT) -f solutions/day10/CMakeFiles/Day10.dir/build.make solutions/day10/CMakeFiles/Day10.dir/build
+.PHONY : Day10/fast
+
+#=============================================================================
 # Target rules for targets named Solution
 
 # Build rule for target.
@@ -319,6 +332,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Advent"
 	@echo "... Day1"
+	@echo "... Day10"
 	@echo "... Day2"
 	@echo "... Day3"
 	@echo "... Day4"

@@ -243,7 +243,8 @@ solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: /Users/martinzha
   /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day6/day6.h \
   /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day7/day7.h \
   /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day8/day8.h \
-  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day9/day9.h
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day9/day9.h \
+  /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day10/day10.h
 
 
 /Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day8/day8.h:
@@ -559,6 +560,8 @@ solutions/CMakeFiles/SolutionFactory.dir/solution_factory.cc.o: /Users/martinzha
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h:
+
+/Users/martinzhang/Documents/workspace/c++/adventofcode/src/solutions/day10/day10.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug:
 
