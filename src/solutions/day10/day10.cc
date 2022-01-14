@@ -23,6 +23,8 @@ void Day10::Part1() {
     int score = CalculateScore(*it);
     if (score > 0) {
       running_score += score;
+	  it = lines_.erase(it);
+	  continue;
     }
     ++it;
   }
@@ -33,14 +35,10 @@ void Day10::Part1() {
 void Day10::Part2() {
   std::vector<long> scores;
   for (const std::string &line : lines_) {
-    if (CalculateScore(line) == 0) {
-      scores.push_back(
-          CalculateMissingBracketScore(CompleteMissingBrackets(line)));
-    }
+    scores.push_back(
+        CalculateMissingBracketScore(CompleteMissingBrackets(line)));
   }
   std::sort(scores.begin(), scores.end());
-  std::cout << "number of scores is " << scores.size()
-            << " retrieving middle score at " << scores.size() / 2 << std::endl;
   std::cout << "Score for part 2 is " << scores.at(scores.size() / 2)
             << std::endl;
 }
